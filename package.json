@@ -1,0 +1,11 @@
+{
+  "name": "sequelize-test",
+  "version": "0.0.1",
+  "main": "hasManyValidation.js",
+  "repository": "https://github.com/m4rcelofs/sequelize-test.git",
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^3.30.2",
+    "sqlite3": "^3.1.8"
+  }
+}
