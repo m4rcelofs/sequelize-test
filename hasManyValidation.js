@@ -25,4 +25,4 @@ sequelize
   .sync()
   .then(() => A.create(a, { include: [{ association: A.associations.Bs }]}))
   .then(console.log)
-  .catch(console.err);
+  .catch(console.error);
